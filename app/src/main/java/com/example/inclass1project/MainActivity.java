@@ -13,10 +13,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    //Toast message
     public void toastMsg(String messageToast) {
         Toast toast = Toast.makeText(this, messageToast, Toast.LENGTH_LONG);
         toast.show();
     }
+    //Display toast message into Screen
     public void displayToastMsg(View viewMessage) {
         toastMsg("Hello, This is my first Android APP");
     }
